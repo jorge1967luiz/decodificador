@@ -1,0 +1,135 @@
+:root{
+    background: linear-gradient(#FEFEFE, #0000FF);    
+    color: #F2F0F1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1{
+    color: #F2F0F1;
+}
+
+.cabecalho img{
+    max-width:70px;
+    max-height:70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: #030d4f;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 40px;
+    text-transform: uppercase;
+}
+.container-input, p {
+    margin-left: 10px;
+}
+    
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #F2F0F1;
+    border-radius: 20px;
+    width: 350px;
+    height: 450px;
+    margin-right: 20%;
+    padding: 0 0 20px 0;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: #F2F0F1;
+    margin-top: 20px;
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#output img{
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.container-bnt button{
+    border: 3px solid #030d4f;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #0000FF;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.btn-copiar{
+    border: 2px solid #F2F0F1;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #030d4f;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container-bnt button:hover{
+   border: 2px solid #030d4f;
+   transition: 0.5s all;
+}
+
+.rodape, .rodapeh3{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+    background:linear-gradient(#FEFEFE, #0000FF);
+    color: #F2F0F1;
+}
+
+
+
