@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https: //fonts.googleapis.com/css2?family= Inter & display família= Inter:wght@400;500;700 & swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <title>Codificador de Texto</title>
+    
+</head>
+<body>
+     <main class="main container">
+         <header class="cabecalho">
+           <img src="imagens/logoAlura.png" alt="logo Alura">
+         </header>
+         <section class="container-input">
+            <div class="input">
+                <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+                <p>Digite apenas letras maiusculas e sem acento!</p>
+            </div>
+        
+            <div id="output">
+                <img src="imagens/boneco.png" alt="logo boneco" height="330px" width="400px">
+                <h2>Sua mensagem aparecerá aqui!</h2>
+                <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+            </div>
+        </section>
+
+        <section class="buttons">
+            <div class="container-bnt">
+                <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>                
+            </div>  
+
+         </section>
+     </main>
+
+     <footer class="rodape">
+        
+        <h3>Desenvolvido por Jorge Luiz</h3>
+     </footer>
+
+     <script src="script.js"></script>
+     
+</body>
+</html>
